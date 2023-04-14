@@ -1,0 +1,12 @@
+.preview {
+    background-color: $clr1;
+    border-radius: 10%;
+    padding: 1rem 0 1rem 0;
+    width: 230px;
+    //gap: 2rem;
+
+    img {
+        background-color: $clr2;
+        border-radius: 50%;
+    }
+}

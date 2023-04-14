@@ -1,0 +1,113 @@
+// Externals
+
+// Setup
+@import "setup/variables";
+@import "setup/functions";
+@import "setup/mixins";
+
+// Basics
+@import "basics/typography";
+@import "basics/base";
+@import "basics/helpers";
+@import "basics/layout";
+@import "basics/modals";
+@import "basics/animations";
+
+// Pages
+@import "pages/Home";
+@import "pages/ContactPage";
+@import "pages/StatisticPage";
+
+// Components
+@import "components/ContactList";
+@import "components/ContactPreview";
+
+// App
+@import "../../App";
+
+.main-app {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    /*.app-header {
+        background: $clr1;
+        color: $clr4;
+    }*/
+    .nav-container {
+        background: $clr5;
+        box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);
+        height: 72px;
+        //margin-top: -65px;
+        z-index: 500;
+        position: relative;
+    }
+
+    .wrapper {
+        width: 100%;
+        margin: 0;
+        padding: 0 1.5rem 0 1.5rem;
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 72px;
+    }
+
+    nav ul {
+        display: flex;
+    }
+
+    nav .logo {
+        h1 {
+            font-family: 'Copperplate';
+            font-weight: 800;
+            font-size: 54px;
+            animation: color-animation 4s linear infinite;
+        }
+    }
+
+    @keyframes color-animation {
+        0%    {color: $clr4}
+        12%   {color: $clr2}
+        25%   {color: $clr1}
+        50%   {color: $clr3}
+        63%   {color: $clr1}
+        75%   {color: $clr2}
+        100%  {color: $clr4}
+    }
+
+    .nav-items li {
+        list-style: none;
+        margin-right: 100px;
+    }
+
+    .nav-items li:nth-last-of-type(1) {
+        margin: 0;
+    }
+
+    .nav-items li a {
+        color: $clr4;
+        font-family: 'Copperplate';
+        font-size: 24px;
+        text-decoration: none;
+    }
+
+    .nav-items li a:hover {
+        color: $clr2;
+    }
+
+
+    main {
+        flex-grow: 1;
+        width: 100%;
+    }
+
+    >footer {
+        background-color: $clr5;
+        color: $clr4;
+        text-align: left;
+    }
+}

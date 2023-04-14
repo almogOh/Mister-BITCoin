@@ -1,0 +1,54 @@
+.home {
+    background-color: $clr1;
+    height: 100%;
+
+    .header-container {
+        background: $clr1 url("../../imgs/bg-shape.svg");
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: contain;
+        height: calc(100vh - 72px);
+        display: flex;
+        align-items: center;
+    }
+
+    .home-body {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 12rem 0 6rem;
+    }
+
+    .home-body h1 {
+        font-weight: 900;
+        font-size: 64px;
+        line-height: 75px;
+        color: $clr6;
+        margin-bottom: 24px;
+    }
+
+    .home-body p {
+        font-size: 24px;
+        line-height: 42px;
+        color: $clr6;
+        width: 418px;
+        margin-bottom: 2rem;
+    }
+
+    .home-body button {
+        text-decoration: none;
+        border: none;
+        color: $clr4;
+        font-size: 24px;
+        background: $clr3;
+        border-radius: 8px;
+        padding: 12px 48px;
+        display: inline-block;
+        margin-right: 1rem;
+        transition: 300ms;
+    }
+
+    .home-body button:hover {
+        transform: translateY(-8px);
+    }
+}
