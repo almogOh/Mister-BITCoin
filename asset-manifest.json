@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.6b90d1bc.css",
-    "main.js": "/static/js/main.aecf194d.js",
-    "static/js/787.42b157f3.chunk.js": "/static/js/787.42b157f3.chunk.js",
-    "static/media/mainBitcoin.png": "/static/media/mainBitcoin.7ae92e152736736faaf9.png",
-    "static/media/bg-shape.svg": "/static/media/bg-shape.cac66166200ade4a85a1.svg",
-    "index.html": "/index.html",
-    "static/media/search-icon.svg": "/static/media/search-icon.ce74cb9638f6d523434c40f665e26ffc.svg",
-    "main.6b90d1bc.css.map": "/static/css/main.6b90d1bc.css.map",
-    "main.aecf194d.js.map": "/static/js/main.aecf194d.js.map",
-    "787.42b157f3.chunk.js.map": "/static/js/787.42b157f3.chunk.js.map"
+    "main.css": "/my-app/static/css/main.7f43edc1.css",
+    "main.js": "/my-app/static/js/main.b20ae646.js",
+    "static/js/787.42b157f3.chunk.js": "/my-app/static/js/787.42b157f3.chunk.js",
+    "static/media/mainBitcoin.png": "/my-app/static/media/mainBitcoin.7ae92e152736736faaf9.png",
+    "static/media/bg-shape.svg": "/my-app/static/media/bg-shape.cac66166200ade4a85a1.svg",
+    "index.html": "/my-app/index.html",
+    "static/media/search-icon.svg": "/my-app/static/media/search-icon.ce74cb9638f6d523434c40f665e26ffc.svg",
+    "main.7f43edc1.css.map": "/my-app/static/css/main.7f43edc1.css.map",
+    "main.b20ae646.js.map": "/my-app/static/js/main.b20ae646.js.map",
+    "787.42b157f3.chunk.js.map": "/my-app/static/js/787.42b157f3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6b90d1bc.css",
-    "static/js/main.aecf194d.js"
+    "static/css/main.7f43edc1.css",
+    "static/js/main.b20ae646.js"
   ]
 }
